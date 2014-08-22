@@ -26,3 +26,18 @@
  *= require jquery.jqplot
  *= require popups
  */
+
+table.data-col-4 th + th + th + th + th,
+table.data-col-4 td + td + td + td + td,
+table.data-col-4 td[colspan="4"] + td,
+table.data-col-4 td[colspan="4"] + td + td,
+table.data-col-4 td[colspan="4"] + td + td + td,
+table.data-col-3 th + th + th + th,
+table.data-col-3 td + td + td + td,
+table.data-col-3 td[colspan="3"] + td,
+table.data-col-3 td[colspan="3"] + td + td,
+table.data-col-2 th + th + th,
+table.data-col-2 td + td + td
+{
+  text-align: right;
+}

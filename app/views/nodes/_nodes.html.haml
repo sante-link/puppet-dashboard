@@ -19,7 +19,7 @@
 - selected_status = 'all' if selected_status == nil
 
 - unless nodes.empty?
-  %table.main
+  %table.main{ class: container.nil? ? 'data-col-3' : 'data-col-4' }
     %thead
       %tr
         %th.empty{:colspan => container.nil? ? 3 : 4}
